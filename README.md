@@ -1,12 +1,13 @@
 # tumicodes.github.io
 Personal portfolio page where I showcase my projects, skills and journey
-## Features
+# Features
 Responsive design
 -Project showcase
 -About me section
 -Contact section
 -Skills section
-##Languages used
--HTML
+
+# Languages used
+HTML
 -CSS
 -JavaScript
