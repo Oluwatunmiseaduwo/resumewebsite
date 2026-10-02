@@ -64,6 +64,8 @@ body {
 
 body.dark-mode {
     background:var(--page-gradient-dark);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .button {

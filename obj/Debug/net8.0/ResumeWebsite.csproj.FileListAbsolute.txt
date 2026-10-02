@@ -27,3 +27,4 @@ C:\Users\leoan\Documents\Important Documents\ResumeWebsite\obj\Debug\net8.0\refi
 C:\Users\leoan\Documents\Important Documents\ResumeWebsite\obj\Debug\net8.0\ResumeWebsite.pdb
 C:\Users\leoan\Documents\Important Documents\ResumeWebsite\obj\Debug\net8.0\ResumeWebsite.genruntimeconfig.cache
 C:\Users\leoan\Documents\Important Documents\ResumeWebsite\obj\Debug\net8.0\ref\ResumeWebsite.dll
+C:\Users\leoan\Documents\Important Documents\ResumeWebsite\obj\Debug\net8.0\ResumeWebsite.sourcelink.json
