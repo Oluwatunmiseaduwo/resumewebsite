@@ -435,10 +435,8 @@ p {
 
 .project-card img {
     width: 100%;
-    
-
-    object-fit:contain;
-    background: rgba(0, 0, 0, 0.15);
+    height:auto;
+    display: block;
     border-radius: 15px;
     margin: 15px 0;
 }
@@ -580,7 +578,7 @@ footer {
     }
 
     .project-card img {
-        height:180px;
+        height:auto;
     }
 
     .project-container {
