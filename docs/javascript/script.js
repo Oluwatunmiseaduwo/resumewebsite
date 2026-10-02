@@ -1,0 +1,50 @@
+﻿const themeToggle = document.getElementById("theme-toggle");
+const themeIcon = document.getElementById("theme-icon");
+const body = document.body;
+
+// Load saved theme
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "dark") {
+     themeIcon.src = "images/heart-light.svg";
+    body.classList.add("dark-mode");
+} else {
+    themeIcon.src = "images/heart-dark.svg";
+}
+
+themeIcon.classList.add("beat");
+
+setTimeout(() => {
+    themeIcon.classList.remove("beat");
+}, 400);
+
+// Toggle theme
+themeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+        themeIcon.src = "images/heart-light.svg";
+        localStorage.setItem("theme", "dark");
+    } else {
+        themeIcon.src = "images/heart-dark.svg";
+        localStorage.setItem("theme", "light");
+    }
+});
+
+const sections = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+}, {
+    threshold:0.2
+});
+
+sections.forEach(section => {
+    observer.observe(section);
+});
+
+
