@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Tumicodes-Portfolio</title>
+    <link rel="stylesheet" href="css-file/resumestyle.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <!--Navigation-->
+        <nav>
+            <h2>Tumicodes</h2>
+            <img src="images/tumicodeslogo.png" alt="tumicode logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project Gallery</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <img id="theme-icon" src="images/heart-light.svg" alt="">
+            </button>
+        </nav>
+    </header>
+    <main>
+        <!--Home Section-->
+        <section id="home">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Hi, I'm <span>Tumi</span></h1>
+                    <p>Computer Science Student interested in Cybersecurity . LLMs . Full stack Web Development.</p>
+                    <a class="button" href="#projects">View My Projects</a>
+                </div>
+            </div>
+        </section>
+        <!--About Me Section-->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I am computer science student at UMASS interested in full-stack web/ app development cybersecurity and ML. 
+                        I am currently learning more cybersecurity tools and prepping for my Comptia security+
+                    </p>
+                    <a class="button" href="#skills">Skills</a>
+                </div>
+                <div class="about-headshot">
+                    <img src="images/Headshot.png" alt="Headshot" />
+                </div>
+            </div>
+        </section>
+        <!--Skills Section-->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>These are skills I have acquired so far: </p> 
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>C</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>C++</h3>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <!--Coding languages and other tools I want to learn: Python, MySQL, C++, React/React.js, Next.js, .NET TP, AWS -->
+        </section>
+        <!--Projects Section-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>More projects coming soon</p>
+            <div class="projects-container">
+                <!--Project 1-->
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <img src="images/portfoliolandingpage.png" alt="Screenshot of Portfolio Website">
+                    <p><strong>Description:</strong> A portfolio website showcasing my projects with live demo for easy access.</p>
+                    <p><strong>Technologies used:</strong> </p> 
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a class="button" href="#" target="_blank">Link to Github</a>
+                    <a class="button" href="#" target="_blank">Link to Demo</a>
+                </div>
+                <!--Project 2-->
+               <!-- <div class="project-card">
+                    <h3>Wazuh SIEM Home Lab</h3>
+                    <img src="images/Wazuh-SIEM-Home-Lab_landingpage" alt="Screenshot of Wazuh-SIEM-Home-Lab">
+                    <p><strong>Description:</strong></p>
+                    <p><strong>Technologies used:</strong></p>
+                    <div class="tech-stack">
+                        <span>#</span>
+                    </div>
+                    <a href="#" target="_blank">Link to Github</a>
+                    <a href="#" target="_blank">Link to Demo</a>
+                </div> -->
+                <!--Project 3-->
+               <!-- <div class="project-card">
+                    <h3>Fraud Detection using ML</h3>
+                    <img src="images/Fraud-Detection-using-ML_landingpage" alt="Screenshot of Project ">
+                    <p><strong>Description:</strong></p>
+                    <p><strong>Technologies used:</strong></p>
+                    <div class="tech-stack">
+                        <span>#</span>
+                    </div>
+                    <a href="#" target="_blank">Link to Github</a>
+                    <a href="#" target="_blank">Link to Demo</a>
+                </div> -->
+                <!--Project 4-->
+                <div class="project-card">
+                    <h3>PassVault</h3>
+                    <img src="images/PassVault-landingpage.png" alt="Screenshot of PassVault ">
+                    <p><strong>Description: This is a secure desktop password manager built with Python and CustomTkinter. 
+                        It allows users to generate strong passwords, stores credentials in an encrypted file and access the manager through a master password. </strong></p>
+                    <p><strong>Technologies used:</strong></p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>JSON</span>
+                        <span>PyCharm</span>
+                    </div>
+                    <a href="https://github.com/Oluwatunmiseaduwo/PassVault" target="_blank">Link to Github</a>
+                    <!-- <a href="#" target="_blank">Link to Demo</a> -->
+                </div>
+                
+            </div>
+        </section>
+        <!--Contact Me Section-->
+        <section id="contact">
+            <h2>Let's Connect </h2>
+            <div class="contact-links">
+                <a href="#">Email</a>
+                <a href="#" target="_blank">Linkedin</a>
+                <a href="#" target="_blank">Github</a> 
+                <a href="#" target="_blank">Download My Resume here</a>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@ 2026 Tumicodes.All right reserved. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to Top</a>
+    
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
