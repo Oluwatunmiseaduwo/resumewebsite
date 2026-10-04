@@ -413,7 +413,7 @@ p {
 }
 .projects-container {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax( 350px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 40px;
     margin-top: 50px;
 }
@@ -581,7 +581,7 @@ footer {
         height:auto;
     }
 
-    .project-container {
+    .projects-container {
         grid-template-columns:1fr;
     }
 
@@ -596,5 +596,14 @@ footer {
 
     section{
         padding: 60px 5%;
+    }
+}
+/*Ipad*/
+@media (max-width: 1024px){
+    nav ul {
+        gap: 15px;
+    }
+    section {
+        padding: 60px 7%;
     }
 }
