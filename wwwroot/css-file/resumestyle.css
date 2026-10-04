@@ -48,6 +48,12 @@
 }
 
 /* Global */
+html, body{
+    overflow-x: hidden;
+    overflow-x: clip;
+    width: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -546,7 +552,13 @@ footer {
     }
 
     nav h2{
+        font-size: 1.5rem;
         margin-right: auto;
+    }
+
+    nav img {
+        width: 44px;
+        height: 44px;
     }
 
     #menu-toggle {
