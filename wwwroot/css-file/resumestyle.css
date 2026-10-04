@@ -159,6 +159,9 @@ nav img {
     align-items:center;
 }
 
+#menu-toggle {
+    display: none;
+}
 #theme-icon {
     width:30px;
     height:30px;
@@ -537,15 +540,67 @@ footer {
 @media (max-width: 768px) {
 
     nav {
-        flex-direction:column;
-        gap: 20px;
+        flex-direction:row;
+        align-items: center;
+        padding: 15px 5%;
     }
 
-    nav ul {
-        flex-direction:column;
-        align-items:center;
-        gap:15px;
+    nav h2{
+        margin-right: auto;
     }
+
+    #menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    #menu-toggle span {
+        display: block;
+        width: 26px;
+        height: 3px;
+        background: var(--text-color);
+        border-radius: 2px;
+        transition: var(--transition-speed);
+    }
+
+    #menu-toggle.open span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg)
+    }
+    
+    #menu-toggle.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle.open span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+        nav ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            background: var(--nav-background);
+            backdrop-filter: blur(12px);
+            padding: 20px 5% 25px;
+            border-radius: 0 0 var(--radius-large) var(--radius-large);
+            box-shadow: 0 8px 20px rgba(0,0,0,.15);
+        }
+
+        nav ul.open {
+            display: flex;
+        }
 
     #home {
         min-height: 80vh;
