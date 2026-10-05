@@ -1,4 +1,3 @@
-wwwroot\css-file\resumestyle.css
 wwwroot\documents\OA_Resume 2026.docx
 wwwroot\images\Headshot.png
 wwwroot\images\heart-dark.svg
@@ -7,4 +6,5 @@ wwwroot\images\PassVault-LandingPage.png
 wwwroot\images\portfoliolandingpage.png
 wwwroot\images\tumicodeslogo.png
 wwwroot\javascript\script.js
+wwwroot\css-file\resumestyle.css
 wwwroot\index.html
