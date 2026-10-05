@@ -286,7 +286,10 @@ section.show {
 }
 
 .home-text span{
+    font-family:"Pinyon Script", cursive;
+    font-size: 1.25em;
     color:var(--rose);
+    text-shadow:0 0 18px rgba(221, 140, 150, 0.6);
 }
 
 .home-text {
