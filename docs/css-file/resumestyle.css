@@ -110,6 +110,7 @@ body.dark-mode {
 .dark-mode #contact {
     background:rgba(0,0,0,.18);
     border:1px solid rgba(255,255,255,.08);
+    margin: 40px 10% 80px;
 }
 
 /* Navigation */
@@ -436,6 +437,9 @@ p {
     box-shadow: 0 8px 20px rgba(0,0,0,.15);
     
     transition:var(--transition-speed);
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(174, 68, 90, 0.3);
 }
 
 .project-card:hover {
@@ -470,6 +474,11 @@ p {
     color:var(--text-color);
 }
 
+.dark-mode .project-card {
+    background: rgba(35, 25, 60, 0.9);
+    border: 1px solid rgba(221, 140, 150, 0.3);
+}
+
 .tech-stack {
     display:flex;
     flex-wrap:wrap;
@@ -489,7 +498,7 @@ p {
     text-align:center;
     border-radius:var(--radius-large);
     border: 1px solid rgba(255,255,255,.25);
-    margin: 80px 10%;
+    margin: 40px 10% 80px;
     padding: 60px;
 
     background: rgba(255,255,255,.25);
