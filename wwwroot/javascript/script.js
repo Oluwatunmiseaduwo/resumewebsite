@@ -63,4 +63,24 @@ navLinks.querySelectorAll("a").forEach(link => {
     })
 })
 
+//Sparkle cursor and trail
+document.addEventListener("mousemove", (e) => {
+    const sparkle = document.createElement("div");
+    sparkle.className = "sparkle";
+    sparkle.textContent = "✦";
+    sparkle.style.left = e.clientX + "px";
+    sparkle.style.top = e.clientY + "px";
+    document.body.appendChild(sparkle);
+    setTimeout(() => sparkle.remove(), 800);
+});
+
+const starCursor = document.createElement("div");
+starCursor.id = "star-cursor";
+starCursor.textContent = "✦";
+document.body.appendChild(starCursor);
+document.addEventListener("mousemove", (e) => {
+    starCursor.style.left = e.clientX + "px";
+    starCursor.style.top = e.clientY + "px";
+});
+
 
