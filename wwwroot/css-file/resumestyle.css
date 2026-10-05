@@ -45,6 +45,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    cursor: none !important;
 }
 
 /* Global */
@@ -54,9 +55,6 @@ html, body{
     width: 100%;
 }
 
-body, a, button{
-    cursor: none;
-}
 html {
     scroll-behavior: smooth;
 }
