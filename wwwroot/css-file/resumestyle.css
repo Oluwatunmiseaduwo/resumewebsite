@@ -429,17 +429,16 @@ p {
 }
 
 .project-card {
-    background:var(--card-background);
+    background:var(--light-pink);
 
     border-radius:var(--radius-meduim);
     padding: 25px;
 
-    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    box-shadow: 0 12px 28px rgba(69,25,82,.18);
     
     transition:var(--transition-speed);
 
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(174, 68, 90, 0.3);
+    border: 2px solid var(--accent-color);
 }
 
 .project-card:hover {
@@ -475,8 +474,8 @@ p {
 }
 
 .dark-mode .project-card {
-    background: rgba(35, 25, 60, 0.9);
-    border: 1px solid rgba(221, 140, 150, 0.3);
+    background: rgba(69, 25, 82, 0.9);
+    border: 2px solid var(--rose);
 }
 
 .tech-stack {
