@@ -428,7 +428,7 @@ p {
 
 /* Project Card */
 #projects {
-  
+  text-align: center;
 }
 .projects-container {
     display: grid;
@@ -444,8 +444,6 @@ p {
     padding: 25px;
     box-shadow: 0 0 22px rgba(174, 68, 90, 0.55),
                 0 12px 28px rgba(69, 25, 82, 0.18);
-    /*box-shadow: 0 0 18px rgba(221, 140, 150, 0.35),
-                0 8px 20px rgba(0, 0, 0,.15);*/
     transition: var(--transition-speed);
 }
 
@@ -455,8 +453,6 @@ p {
         box-shadow: 0 0 34px rgba(174, 68, 90, 0.75),
                     0 0 80px rgba(221, 140, 150, 0.45),
                     0 12px 28px rgba(69, 25, 82,.18);
-        /*box-shadow: 0 0 28px rgba(221, 140, 150, 0.6),
-                0 0 70px rgba(174, 68, 90, 0.3);*/
     }
 
 .project-card img {
