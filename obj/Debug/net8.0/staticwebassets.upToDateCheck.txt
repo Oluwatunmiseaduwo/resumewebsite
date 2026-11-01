@@ -1,6 +1,6 @@
 wwwroot\css-file\resumestyle.css
-wwwroot\documents\OA_Resume 2026.docx
-wwwroot\images\Headshot.png
+wwwroot\images\07-dashboard-soc-with-box.png
+wwwroot\images\Headshot2.png
 wwwroot\images\heart-dark.svg
 wwwroot\images\heart-light.svg
 wwwroot\images\PassVault-LandingPage.png
