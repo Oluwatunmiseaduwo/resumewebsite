@@ -1,5 +1,6 @@
 wwwroot\css-file\resumestyle.css
 wwwroot\images\02-enrollment-policy-lab-test-mfa.png
+wwwroot\images\drone-telemetry-card.png
 wwwroot\images\Headshot2.png
 wwwroot\images\heart-dark.svg
 wwwroot\images\heart-light.svg
